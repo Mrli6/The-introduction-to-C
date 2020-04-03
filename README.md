@@ -1,4 +1,6 @@
- 参考书籍《C Primer Plus》《C程序设计语言》《C和指针》
+ <p align="center">
+参考书籍《C Primer Plus》《C程序设计语言》《C和指针》
+</p>
 
 # 三字母词
 
