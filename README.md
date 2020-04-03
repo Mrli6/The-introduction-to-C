@@ -45,11 +45,11 @@ x的答案是0，x=1;被注释了。
 
 字符串常量（不像字符常量）可以为空（`""`）。当需要修改字符串时，应把它存储于字符数组中，再对这个数组进行修改，决对不能修改字符串本身。
 
-![示例](https://github.com/Mrli6/The-introduction-to-C/blob/master/修改字符串问题.png)
+![](https://github.com/Mrli6/The-introduction-to-C/blob/master/修改字符串问题.png)
 
 在程序中使用字符串常量时，会生成一个“指向字符的`常量指针`”。当字符串出现在表达式中，`表达式使用的值是这些字符所存储的地址，而不是字符本身`。所以可以把字符串赋值给一个字符指针，而不可以赋值给一个字符数组。
 
-![示例](https://github.com/Mrli6/The-introduction-to-C/blob/master/字符串指针.png)
+![](https://github.com/Mrli6/The-introduction-to-C/blob/master/字符串指针.png)
 
 
 # printf转换说明
