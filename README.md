@@ -89,10 +89,12 @@ printf("%d,%d,%d\n",a+b+c,b=b*2,c++);
 <br/>
 
 ```
-int const * pci;（或const int * pci;）  pci是一个指向整型常量的指针。
+int const * pci;（或const int * pci;）
+pci是一个指向整型常量的指针。
 可以修改指针的值，但不能修改它指向的值。
 
-int * const cpi;  cpi是一个指向整型的常量指针。
+int * const cpi;
+cpi是一个指向整型的常量指针。
 无法修改指针的值，但可以修改它指向的值。
 ```
 
