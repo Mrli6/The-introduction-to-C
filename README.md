@@ -126,9 +126,33 @@ cpi是一个指向整型的常量指针。
 
 <br/>
 
+# default与switch
 
+<br/>
 
+>当switch表达式的值并不匹配所有case标签的值时，default子句就会执行。
 
+switch语句中最多只能有一条default语句，最好在default后面加上break。
+
+```
+default后面没加break，可能导致这两个代码结果不同。
+
+switch(x){
+case 1:
+    printf("1\n");
+    break;
+default:
+    printf("bye");
+}
+
+switch(x){
+default:
+    printf("bye");
+case 1:
+    printf("1\n");
+    break;
+}
+```
 
 
 
